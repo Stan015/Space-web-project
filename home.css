@@ -1,0 +1,139 @@
+html,
+* {
+  box-sizing: border-box;
+}
+
+html {
+  --main-bg-color: #ffffff;
+  font-family: "Barlow", sans-serif;
+}
+
+body {
+  background-image: url(assets/home/background-home-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  margin-right: 7rem;
+}
+
+div.logo {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    .hr{
+      color: #D0D6F9;
+    }
+}
+
+.hr {
+  width: 45rem;
+  opacity: 0.4;
+}
+
+ul{
+    margin-right: 5rem;
+}
+
+/* ul{
+    padding: 2rem;
+    background-color: #ffffff;
+    opacity: .2;
+} */
+
+ul,
+li {
+  display: flex;
+  gap: 1.5rem;
+  color: var(--main-bg-color);
+
+}
+
+ul,
+a {
+    position: relative;
+  color: var(--main-bg-color);
+  text-decoration: none;
+  color: #D0D6F9;
+  span {
+    margin-right: 0.5rem;
+    color: var(--main-bg-color);
+  }
+}
+
+section {
+  display: flex;
+  align-items: center;
+  color: var(--main-bg-color);
+  margin-top:5rem;
+  margin-left: 3rem;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6rem ;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: #D0D6F9;
+}
+
+h1 {
+  font-size: 7rem;
+  font-weight: bolder;
+  margin-top: -.05rem;
+  letter-spacing: 0.2rem;
+  font-family: "Bellefair";
+}
+
+p {
+  width: 35%;
+  margin-top: -5rem;
+  line-height: 1.6rem;
+  font-weight: 100;
+  font-size: 14px;
+  color: #D0D6F9;
+}
+
+.right {
+  margin-right: 12rem;
+  margin-top: 16rem;
+}
+
+.man{
+    width: 13rem;
+    height: 13rem;
+    line-height: 13rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    background-color: white;
+    font-family: "Bellefair", serif;
+}
+
+a:after{
+   content: "";
+   position: absolute;
+   background-color: var(--main-bg-color);
+   height: 3px;
+   width: 0%;
+   left: 0;
+   bottom: -20px;
+   transition: 0.3s;
+}
+
+a:hover{
+    color: var(--main-bg-color);
+}
+a:hover:after{
+    width: 100%;
+}
