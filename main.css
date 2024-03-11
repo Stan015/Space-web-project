@@ -22,10 +22,18 @@ nav {
   margin-right: 7rem;
 }
 
+.lagos{
+  background-color: rgba(255, 255, 255, 0.241);
+  height: 4.5rem;
+  text-align: center;
+  line-height: 2rem;
+}
+
 div.logo {
     display: flex;
     gap: 3rem;
     align-items: center;
+
     .hr{
       color: #D0D6F9;
     }
@@ -136,4 +144,90 @@ a:hover{
 }
 a:hover:after{
     width: 100%;
+}
+
+.des-body{
+  background-image: url(assets/destination/background-destination-desktop.jpg);
+}
+
+.des-sec{
+  display: flex;
+  justify-content:space-between;
+  gap: 20rem;
+  margin-top: 0.5rem;
+}
+
+.des-left{
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  margin-left: 6rem;
+}
+
+.des-h2{
+  font-weight: 400;
+  word-spacing: 0.5rem;
+}
+
+.des-h2>span{
+  color: #D0D6F9;
+  opacity: 0.4;
+  margin-right: 1.5rem;
+}
+
+.des-img{
+  margin-left: 2.5rem;
+  margin-top: -0.3rem;
+}
+
+.des-right{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+}
+
+nav >.des-ul{
+  margin-left: -5rem;
+  margin-top: 6rem;
+}
+
+des-h1{
+  font-family: "Bellefair", serif;
+  font-weight: 300;
+}
+
+.des-para{
+  width: 70%;
+  margin-top: -6rem;
+}
+
+.des-hr{
+  opacity: 0.2;
+  width: 70%;
+}
+
+.des-footer{
+  display: flex;
+  gap: 9rem;
+  margin-top: 1rem;
+}
+
+.des-ft{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.des-dis{
+  width: 100%;
+  font-size: 0.6rem;
+}
+
+.des-day, .des-km{
+  width: 100%;
+  font-family: "Bellefair", serif;
+  font-size: 1.5rem;
+  font-weight:500;
+  color: var(--main-bg-color);
+  
 }
