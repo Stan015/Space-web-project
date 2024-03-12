@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,500;1,800&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,500;1,800&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Bellefair&display=swap"
       rel="stylesheet"
     />
     <title>Space Tourism Website</title>
@@ -29,40 +29,45 @@
             <li><a href="technology-vehicle.html">03 Technology</a></li>
           </ul>
         </nav>
+
+        <div
+          class="burger-menu"
+          aria-label="burger-menu"
+          role="menu"
+          aria-expanded="false"
+          aria-hidden="true"
+        >
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
       </div>
     </header>
 
     <main>
       <div class="main-container-crew">
-        <div class="first-child-div">
-          <div class="crew-container">
-            <h1><span>02</span> Meet your crew</h1>
-            <div class="crew-details">
-              <h2><span>Pilot</span> <br />Victor Gloverh</h2>
-              <p>
-                Pilot on the first operational flight of the SpaceX Crew Dragon to
-                the International Space Station. Glover is a commander in the U.S.
-                Navy where he pilots an F/A-18.He was a crew member of Expedition
-                64, and served as a station systems flight engineer.
-              </p>
-            </div>
-          </div>
-          <div class="crew-links-container">
-            <a href="crew-commander.html" aria-label="crew commander"></a>
-            <a href="crew-specialist.html" aria-label="crew specialist"></a>
-            <a
-              href="crew-pilot.html"
-              aria-label="crew pilot"
-              aria-current="true"
-            ></a>
-            <a href="crew.engineer.html" aria-label="crew engineer"></a>
-          </div>
+        <h1><span>02</span> Meet your crew</h1>
+        <div class="crew-details">
+          <h2><span>Pilot</span> <br />Victor Gloverh</h2>
+          <p>
+            Pilot on the first operational flight of the SpaceX Crew Dragon to
+            the International Space Station. Glover is a commander in the U.S.
+            Navy where he pilots an F/A-18.He was a crew member of Expedition
+            64, and served as a station systems flight engineer.
+          </p>
         </div>
-        <div class="second-child-div">
-          <img
-            src="/assets/crew/image-victor-glover.png"
-            alt="Victor Glover"
-          />
+        <div class="crew-links-container">
+          <a href="crew-commander.html" aria-label="crew commander"></a>
+          <a href="crew-specialist.html" aria-label="crew specialist"></a>
+          <a
+            href="crew-pilot.html"
+            aria-label="crew pilot"
+            aria-current="true"
+          ></a>
+          <a href="crew.engineer.html" aria-label="crew engineer"></a>
+        </div>
+        <div class="crew-img-div">
+          <img src="/assets/crew/image-victor-glover.png" alt="Victor Glover" />
         </div>
       </div>
     </main>
