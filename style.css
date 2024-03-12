@@ -296,9 +296,10 @@ main {
 
 .main-container-crew .crew-img-div {
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 35rem;
+  height: 40rem;
   grid-area: 2 / 2 / 4 / -1;
+  align-self: flex-end;
 }
 
 .main-container-crew img {
@@ -657,5 +658,35 @@ main {
     width: 86%;
     text-align: center;
     font-size: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1350px) {
+  header .container .straight-line {
+    width: 30%;
+  }
+
+  header .primary-nav {
+    width: 65%;
+  }
+
+  .main-container-tech {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .main-container-crew .crew-img-div {
+    display: block;
+    width: 28rem;
+    height: 35rem;
+  }
+
+  .main-container-tech .tech-img-div {
+    width: 30rem;
+    height: 30rem;
+  }
+
+  .crew-details p,
+  .technology-details p {
+    width: 90%;
   }
 }
